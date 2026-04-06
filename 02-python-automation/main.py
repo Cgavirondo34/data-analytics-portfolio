@@ -54,7 +54,7 @@ def _generate_sample_data() -> pd.DataFrame:
 
     categories = ["Electronics", "Clothing", "Food & Beverage", "Home & Garden", "Sports"]
     regions    = ["North", "South", "East", "West", "Central"]
-    statuses   = ["completed", "completed", "completed", "returned", "pending"]
+    statuses   = ["Completed", "Completed", "Completed", "Returned", "Pending"]
 
     return pd.DataFrame({
         "order_id"    : range(1001, 1001 + n),
